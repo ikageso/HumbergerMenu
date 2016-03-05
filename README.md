@@ -1,7 +1,6 @@
 # HumbergerMenu
 ハンバーガーメニューのサンプル
 
-
 ![](https://github.com/ikageso/HumbergerMenu/wiki/images/closed.jpg)
 
 ![](https://github.com/ikageso/HumbergerMenu/wiki/images/opened.jpg)
@@ -12,3 +11,6 @@
 
 ### Features
 * WPF
+
+###
+MenuItem ControlTemplate の例<https://msdn.microsoft.com/ja-jp/library/ms747082%28v=vs.80%29.aspx>
