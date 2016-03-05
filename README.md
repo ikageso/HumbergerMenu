@@ -13,4 +13,4 @@
 * WPF
 
 ###
-MenuItem ControlTemplate の例<https://msdn.microsoft.com/ja-jp/library/ms747082%28v=vs.80%29.aspx>
+MenuItem ControlTemplate の例&lt;https://msdn.microsoft.com/ja-jp/library/ms747082%28v=vs.80%29.aspx&gt;
