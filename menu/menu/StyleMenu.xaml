@@ -19,7 +19,7 @@
     <ControlTemplate x:Key="{x:Static MenuItem.TopLevelHeaderTemplateKey}"
                  TargetType="MenuItem">
         <Border Name="Border" >
-            <Grid Height="{Binding ActualHeight, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Grid}}}">
+            <Grid Height="{Binding ActualHeight, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type MenuItem}}}">
                 <!--<ContentPresenter 
         Margin="6,3,6,3" 
         ContentSource="Header"

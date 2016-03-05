@@ -11,13 +11,11 @@
             <RowDefinition Height="40" />
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
-        <Grid Grid.Column="1" Name="grid1">
-            <Menu Name="menu1" >
-                <MenuItem Header="">
-                    <MenuItem Header="sub menu1" />
-                    <MenuItem Header="sub menu2" />
-                </MenuItem>
-            </Menu>
-        </Grid>
+        <Menu Name="menu1" Grid.Column="1">
+            <MenuItem Header="">
+                <MenuItem Header="sub menu1" />
+                <MenuItem Header="sub menu2" />
+            </MenuItem>
+        </Menu>
     </Grid>
 </Window>
