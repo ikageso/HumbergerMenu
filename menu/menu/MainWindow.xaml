@@ -1,0 +1,23 @@
+﻿<Window x:Class="menu.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="40" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid Grid.Column="1" Name="grid1">
+            <Menu Name="menu1" >
+                <MenuItem Header="">
+                    <MenuItem Header="sub menu1" />
+                    <MenuItem Header="sub menu2" />
+                </MenuItem>
+            </Menu>
+        </Grid>
+    </Grid>
+</Window>
